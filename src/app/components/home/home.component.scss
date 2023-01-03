@@ -1,0 +1,50 @@
+.container-first-content {
+    text-align: center;
+
+    .my-name {
+        font-size: 40px;
+        font-weight: 700;
+        color: #2d7bef;
+        margin-bottom: 20px;
+    }
+
+    .giant-title {
+        font-weight: 800;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    span {
+        font-weight: 300;
+        font-size: 15px;
+    }
+}
+
+.container-button-theme {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    z-index: 9999;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-first-content {
+
+        .my-name {
+            font-size: 20px;
+        }
+
+        .giant-title {
+            font-size: 20px;
+        }
+
+    }
+}
